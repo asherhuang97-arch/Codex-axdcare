@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OEM/ODM Inquiry Form | AXDCARE Medical Device Manufacturer</title>
+    <meta
+      name="description"
+      content="Submit an OEM/ODM inquiry to AXDCARE for blood pressure monitors, nebulizers, thermometers, private label, packaging customization and app/Bluetooth development."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="inquiry-page">
+    <div class="utility-bar" aria-label="Quick links">
+      <div class="utility-left">
+        <a href="index.html#buyers">Partners</a>
+        <span></span>
+        <a href="index.html#location">Factory Location</a>
+      </div>
+      <div class="utility-right">
+        <a href="index.html#oem">OEM/ODM Support</a>
+        <a href="index.html#buyers">Global Distribution</a>
+        <a href="assets/downloads/AXDCARE-Catalog-2026.pdf" download>Downloads</a>
+        <a href="index.html#inquiry" data-i18n="utility.global">Global - English</a>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="AXDCARE home">
+        <img src="assets/brand/axdcare-wordmark.png" alt="AXDCARE" />
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="index.html#products">Products <span>⌄</span></a>
+        <a href="index.html#oem">OEM/ODM <span>⌄</span></a>
+        <a href="index.html#quality">Quality <span>⌄</span></a>
+        <a href="index.html#about" data-i18n="nav.about">About AXDCARE</a>
+        <a href="index.html#resources">Resources <span>⌄</span></a>
+        <a class="active" href="inquiry.html" data-i18n="nav.inquiry">Inquiry</a>
+      </nav>
+      <label class="language-switcher">
+        <span class="language-icon">◎</span>
+        <select class="language-select" aria-label="Select website language">
+          <option value="en">EN</option>
+          <option value="ar">AR</option>
+          <option value="de">DE</option>
+          <option value="fr">FR</option>
+          <option value="es">ES</option>
+          <option value="pt">PT</option>
+        </select>
+      </label>
+      <a class="button primary header-button" href="#inquiry-form" data-i18n="cta.quote">Get a Quote</a>
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="inquiry-hero">
+        <div class="inquiry-hero-copy">
+          <span data-i18n="inquiry.eyebrow">Qualified B2B Inquiry</span>
+          <h1 data-i18n="inquiry.title">Tell Us Your OEM/ODM Medical Device Requirements</h1>
+          <p data-i18n="inquiry.subtitle">
+            Submit your company details, target market and customization needs. AXDCARE will review
+            your inquiry and prepare a manufacturer-level response for distributors, importers,
+            brand owners and pharmacy chains.
+          </p>
+          <div class="inquiry-proof">
+            <strong data-i18n="inquiry.proof.oem">OEM/ODM Manufacturer</strong>
+            <strong data-i18n="inquiry.proof.private">Private Label Support</strong>
+            <strong data-i18n="inquiry.proof.global">Global Export Buyers</strong>
+          </div>
+        </div>
+
+        <form class="b2b-inquiry-form" id="inquiry-form" novalidate>
+          <div class="form-header">
+            <h2 data-i18n="inquiry.formTitle">Request OEM Quote</h2>
+            <p><span data-i18n="inquiry.requiredNote">Fields marked</span> <span>*</span> <span data-i18n="inquiry.requiredNoteAfter">are required.</span></p>
+          </div>
+
+          <div class="form-grid">
+            <label>
+              <span data-i18n="inquiry.fields.fullName">Full Name</span> <span>*</span>
+              <input
+                type="text"
+                name="fullName"
+                placeholder="Your full name"
+                data-i18n-placeholder="inquiry.placeholders.fullName"
+                autocomplete="name"
+                required
+                data-error="Please enter your full name."
+                data-error-key="inquiry.errors.fullName"
+              />
+              <small class="field-error"></small>
+            </label>
+
+            <label>
+              <span data-i18n="inquiry.fields.email">Email Address</span> <span>*</span>
+              <input
+                type="email"
+                name="email"
+                placeholder="name@company.com"
+                data-i18n-placeholder="inquiry.placeholders.email"
+                autocomplete="email"
+                required
+                data-error="Please enter a valid business email address."
+                data-error-key="inquiry.errors.email"
+              />
+              <small class="field-error"></small>
+            </label>
+
+            <label>
+              <span data-i18n="inquiry.fields.phone">Phone / WhatsApp</span> <span>*</span>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="+971 / +966 / +234 ..."
+                data-i18n-placeholder="inquiry.placeholders.phone"
+                autocomplete="tel"
+                required
+                data-error="Please enter your phone or WhatsApp number."
+                data-error-key="inquiry.errors.phone"
+              />
+              <small class="field-error"></small>
+            </label>
+
+            <label>
+              <span data-i18n="inquiry.fields.company">Company Name</span> <span>*</span>
+              <input
+                type="text"
+                name="company"
+                placeholder="Your company name"
+                data-i18n-placeholder="inquiry.placeholders.company"
+                autocomplete="organization"
+                required
+                data-error="Please enter your company name."
+                data-error-key="inquiry.errors.company"
+              />
+              <small class="field-error"></small>
+            </label>
+
+            <label>
+              <span data-i18n="inquiry.fields.targetMarket">Target Market</span>
+              <select name="targetMarket">
+                <option value="" data-i18n="inquiry.options.targetMarket">Please select target market</option>
+                <option>UAE</option>
+                <option>Saudi Arabia</option>
+                <option>Nigeria</option>
+                <option>South Africa</option>
+                <option>Indonesia</option>
+                <option>Europe</option>
+                <option>USA</option>
+                <option>Latin America</option>
+                <option>Other</option>
+              </select>
+              <small class="field-hint" data-i18n="inquiry.hints.targetMarket">Optional, but helpful for certification and shipping advice.</small>
+            </label>
+
+            <label>
+              <span data-i18n="inquiry.fields.service">Required Service</span>
+              <select name="requiredService">
+                <option value="" data-i18n="inquiry.options.service">Please select required service</option>
+                <option>OEM (Logo Printing)</option>
+                <option>ODM (Product Design)</option>
+                <option>Private Label</option>
+                <option>Packaging Customization</option>
+                <option>App / Bluetooth Development</option>
+              </select>
+              <small class="field-hint" data-i18n="inquiry.hints.service">Optional. Select the closest service if known.</small>
+            </label>
+
+            <label>
+              <span data-i18n="inquiry.fields.companyType">Company Type</span>
+              <select name="companyType">
+                <option value="" data-i18n="inquiry.options.companyType">Please select company type</option>
+                <option>Distributor</option>
+                <option>Importer</option>
+                <option>Brand Owner (Private Label)</option>
+                <option>Pharmacy Chain</option>
+                <option>Hospital / Clinic</option>
+                <option>Medical Wholesaler</option>
+              </select>
+              <small class="field-hint" data-i18n="inquiry.hints.companyType">Optional. Helps us qualify the right sales workflow.</small>
+            </label>
+
+            <label class="full">
+              <span data-i18n="inquiry.fields.project">Project Details</span>
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Example: We need 3,000 pcs/month upper arm blood pressure monitors with logo printing and custom retail box for UAE market."
+                data-i18n-placeholder="inquiry.placeholders.project"
+              ></textarea>
+              <small class="field-hint" data-i18n="inquiry.hints.project">Share product interest, volume, timeline, packaging or certification needs.</small>
+            </label>
+
+            <label class="honeypot" aria-hidden="true">
+              Website
+              <input type="text" name="website" tabindex="-1" autocomplete="off" />
+            </label>
+          </div>
+
+          <div class="anti-spam">
+            <label>
+              <input type="checkbox" name="buyerConfirm" required data-error="Please confirm this is a business inquiry." data-error-key="inquiry.errors.confirm" />
+              <span data-i18n="inquiry.confirm">I confirm this is a business inquiry for OEM/ODM medical devices.</span>
+            </label>
+            <small class="field-error"></small>
+          </div>
+
+          <button class="button primary submit-button" type="submit">
+            <span class="button-label" data-i18n="inquiry.submit">Submit Inquiry</span>
+            <span class="button-loading" data-i18n="inquiry.submitting">Submitting...</span>
+          </button>
+
+          <p class="form-status" role="status" aria-live="polite"></p>
+          <p class="integration-note">
+            Integration ready: connect this form to your email service, CRM, database, or anti-spam
+            endpoint by setting <code>INQUIRY_ENDPOINT</code> in <code>script.js</code>.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/8618583246000?text=Hello%2C%20I%20am%20interested%20in%20your%20products.%20Please%20send%20me%20more%20details."
+      target="_blank"
+      rel="noopener"
+      aria-label="Chat with AXDCARE on WhatsApp"
+    >
+      <span class="whatsapp-float__icon" aria-hidden="true">
+        <svg viewBox="0 0 32 32" role="img">
+          <path d="M16 3.5A12.4 12.4 0 0 0 5.6 22.7L4 28.5l6-1.5A12.4 12.4 0 1 0 16 3.5Zm0 22.8c-2 0-3.9-.6-5.6-1.7l-.4-.2-3.5.9.9-3.4-.2-.4A10.2 10.2 0 1 1 16 26.3Zm5.8-7.6c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.4 8.4 0 0 1-4.2-3.7c-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-.9-2c-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 3 0 1.7 1.3 3.4 1.5 3.7.2.2 2.5 3.9 6.2 5.3 2.3.9 3.2 1 4.4.8 1-.2 1.8-1.1 2-1.6.2-.5.2-1 .2-1.2-.1-.1-.3-.2-.6-.4Z" />
+        </svg>
+      </span>
+      <span class="whatsapp-float__text">WhatsApp</span>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
