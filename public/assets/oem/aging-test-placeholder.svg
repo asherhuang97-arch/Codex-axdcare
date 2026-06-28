@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" role="img" aria-labelledby="title desc">
+  <title id="title">Aging Test</title>
+  <desc id="desc">Reliability aging test placeholder for electronic healthcare products.</desc>
+  <rect width="520" height="320" rx="24" fill="#f8fbff"/>
+  <rect x="74" y="70" width="372" height="170" rx="18" fill="#fff" stroke="#d7e2f0" stroke-width="4"/>
+  <path d="M116 116h72M116 154h72M116 192h72" stroke="#d8e4f3" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="280" cy="154" r="58" fill="#eef5ff" stroke="#5b63a7" stroke-width="8"/>
+  <path d="M280 118v40l30 18" fill="none" stroke="#5b63a7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M372 122h34M372 154h34M372 186h34" stroke="#00b8a9" stroke-width="10" stroke-linecap="round"/>
+  <text x="260" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#263a63">Aging Test</text>
+</svg>

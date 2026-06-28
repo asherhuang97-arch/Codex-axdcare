@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" role="img" aria-labelledby="title desc">
+  <title id="title">Warehouse</title>
+  <desc id="desc">Product warehouse and shipment preparation placeholder.</desc>
+  <rect width="520" height="320" rx="24" fill="#f8fbff"/>
+  <path d="M76 110 260 48l184 62v150H76z" fill="#fff" stroke="#d7e2f0" stroke-width="5"/>
+  <rect x="116" y="142" width="74" height="58" rx="8" fill="#eef5ff" stroke="#5b63a7" stroke-width="4"/>
+  <rect x="222" y="142" width="74" height="58" rx="8" fill="#eef5ff" stroke="#5b63a7" stroke-width="4"/>
+  <rect x="328" y="142" width="74" height="58" rx="8" fill="#eef5ff" stroke="#5b63a7" stroke-width="4"/>
+  <path d="M116 226h286" stroke="#00b8a9" stroke-width="12" stroke-linecap="round"/>
+  <text x="260" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#263a63">Warehouse</text>
+</svg>

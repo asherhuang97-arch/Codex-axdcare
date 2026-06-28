@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "AXDCARE | OEM/ODM Home Medical Device Manufacturer",
   description:

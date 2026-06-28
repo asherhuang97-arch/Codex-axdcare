@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title desc">
+  <title id="title">Quality Inspection</title>
+  <desc id="desc">Medical device quality inspection placeholder.</desc>
+  <rect width="320" height="220" rx="22" fill="#f7fbff"/>
+  <rect x="62" y="48" width="132" height="112" rx="14" fill="#fff" stroke="#d5e1f0" stroke-width="3"/>
+  <path d="M86 84h76M86 112h54M86 140h72" stroke="#5b63a7" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="230" cy="82" r="28" fill="#e7f7f5" stroke="#00b8a9" stroke-width="6"/>
+  <path d="m216 82 10 10 20-24" fill="none" stroke="#00b8a9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="160" y="194" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#263a63">Quality Inspection</text>
+</svg>

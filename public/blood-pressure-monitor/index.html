@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -18,28 +18,39 @@
         <a href="../index.html#location">Factory Location</a>
       </div>
       <div class="utility-right">
-        <a href="../index.html#oem">OEM/ODM Support</a>
+        <a href="../oem-odm/">OEM/ODM Support</a>
         <a href="../index.html#buyers">Global Distribution</a>
-        <a href="../assets/downloads/AXDCARE-Catalog-2026.pdf" download>Downloads</a>
-        <a href="../inquiry.html" data-i18n="utility.global">Global - English</a>
+        <a href="../index.html#quote-form">Request Catalog</a>
+        <a href="../index.html#quote-form" data-i18n="utility.global">Global - English</a>
       </div>
     </div>
-
     <header class="site-header">
       <a class="brand" href="../index.html" aria-label="AXDCARE home">
         <img src="../assets/brand/axdcare-wordmark.png" alt="AXDCARE" />
       </a>
       <nav class="main-nav" aria-label="Primary navigation">
-        <a href="../index.html" data-i18n="nav.home">Home</a>
-        <a class="active" href="../index.html#products">Products <span>⌄</span></a>
-        <a href="../index.html#oem">OEM/ODM <span>⌄</span></a>
-        <a href="../index.html#quality">Quality <span>⌄</span></a>
-        <a href="../index.html#about" data-i18n="nav.about">About AXDCARE</a>
-        <a href="../index.html#resources">Resources <span>⌄</span></a>
-        <a href="../inquiry.html" data-i18n="nav.contact">Contact</a>
+        <a href="../index.html">Home</a>
+        <div class="nav-dropdown products-dropdown">
+          <a class="active" href="../index.html#products">Products <span aria-hidden="true">⌄</span></a>
+          <div class="mega-menu product-mega" aria-label="Product categories">
+            <a href="../blood-pressure-monitor/">Blood Pressure Monitors</a>
+            <a href="../nebulizer/">Nebulizers</a>
+            <a href="../thermometer/">Digital Thermometers</a>
+            <a href="../index.html#products">Blood Glucose Meters</a>
+            <a href="../index.html#products">Pulse Oximeters</a>
+            <a href="../index.html#products">Pill Box Timers</a>
+            <a href="../index.html#products">TENS / EMS Devices</a>
+            <a href="../index.html#products">Healthcare Accessories</a>
+          </div>
+        </div>
+        <a href="../oem-odm/">OEM/ODM</a>
+        <a href="../index.html#about">Factory</a>
+        <a href="../index.html#quality">Quality</a>
+        <a href="../blog/">Blog</a>
+        <a href="../index.html#quote-form">Contact</a>
       </nav>
       <label class="language-switcher">
-        <span class="language-icon">◎</span>
+        <span class="language-icon" aria-hidden="true">◎</span>
         <select class="language-select" aria-label="Select website language">
           <option value="en">EN</option>
           <option value="ar">AR</option>
@@ -49,7 +60,7 @@
           <option value="pt">PT</option>
         </select>
       </label>
-      <a class="button primary header-button" href="../inquiry.html" data-i18n="cta.quote">Get a Quote</a>
+      <a class="button primary header-button" href="../index.html#quote-form">Get a Quote</a>
       <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
         <span></span>
         <span></span>
@@ -70,7 +81,7 @@
           <span>03</span>
           <strong>Infrared Thermometers</strong>
         </a>
-        <a href="../index.html#oem">
+        <a href="../oem-odm/">
           <span>04</span>
           <strong>OEM/ODM Solutions</strong>
         </a>
@@ -79,15 +90,15 @@
       <section class="product-showcase">
         <div class="product-showcase__media">
           <div class="product-glow"></div>
-          <img
+          <img loading="lazy"
             src="../assets/products/catalog/bp860.png"
             alt="AXDCARE upper arm digital blood pressure monitor"
           />
         </div>
         <div class="product-showcase__copy">
-          <p class="product-breadcrumb">Products / Monitoring / Blood Pressure Monitors</p>
-          <h1>Blood Pressure Monitor Manufacturer</h1>
-          <h2>OEM/ODM Upper Arm, Wrist, Digital & Bluetooth Models</h2>
+          <p class="product-breadcrumb">Products / Blood Pressure Monitoring</p>
+          <h1>Blood Pressure Monitoring Solutions</h1>
+          <h2>Reliable upper arm and wrist blood pressure monitors for home use, pharmacy channels and private label healthcare brands.</h2>
           <ul class="product-feature-list">
             <li>Upper arm and wrist blood pressure monitor OEM programs</li>
             <li>Bluetooth, Type-C, voice broadcast and large display options</li>
@@ -96,39 +107,53 @@
             <li>Procurement-ready specifications for importers and pharmacy chains</li>
           </ul>
           <div class="product-actions">
-            <a class="button primary" href="../inquiry.html">Request OEM Quote</a>
+            <a class="button primary" href="../index.html#quote-form">Request OEM Quote</a>
             <a class="button outline" href="#product-details">View Details</a>
           </div>
         </div>
       </section>
 
       <section class="product-tabs" id="product-details" aria-label="Blood pressure monitor details">
-        <a href="#models">Product Models</a>
+        <a href="#scenarios">Application Scenarios</a>
+        <a href="#models">Product Series</a>
         <a href="#specs">Specifications</a>
-        <a href="#oem-options">OEM Options</a>
+        <a href="#oem-options">Technologies</a>
+        <a href="#related-articles">Related Articles</a>
         <a href="#buyer-faq">Buyer FAQ</a>
+      </section>
+
+      <section class="section" id="scenarios">
+        <div class="section-heading">
+          <h2>Application Scenarios</h2>
+          <p>Blood pressure monitoring programs can support home users, pharmacy channels and distributor product lines.</p>
+        </div>
+        <div class="scenario-grid">
+          <article class="scenario-card"><div class="scenario-image"><img src="../assets/products/catalog/bp860.png" alt="Home use blood pressure monitoring solution" loading="lazy" /></div><h3>Home Healthcare</h3><p>Upper arm and wrist monitors for daily household blood pressure tracking.</p></article>
+          <article class="scenario-card"><div class="scenario-image"><img src="../assets/products/catalog/bp826.png" alt="Pharmacy blood pressure monitor retail product" loading="lazy" /></div><h3>Pharmacy Channels</h3><p>Retail-ready products with packaging and user manual localization.</p></article>
+          <article class="scenario-card"><div class="scenario-image"><img src="../assets/technology/blood-pressure-monitor-technology.svg" alt="Private label blood pressure monitor program" loading="lazy" /></div><h3>Private Label Brands</h3><p>OEM programs for healthcare brands that need logo, packaging and documentation support.</p></article>
+        </div>
       </section>
 
       <section class="section product-model-section" id="models">
         <div class="section-heading">
-          <h2>Blood Pressure Monitor Product Range</h2>
+          <h2>Product Series</h2>
           <p>Designed for medical distributors, importers, pharmacy chains and private label healthcare brands.</p>
         </div>
         <div class="product-range-grid">
           <article>
-            <div class="model-image"><img src="../assets/products/catalog/bp860.png" alt="AXD-BP860 upper arm blood pressure monitor" /></div>
+            <div class="model-image"><img loading="lazy" src="../assets/products/catalog/bp860.png" alt="AXD-BP860 upper arm blood pressure monitor" /></div>
             <h3>Upper Arm Blood Pressure Monitor</h3>
             <p>Large display, cuff detection, irregular heartbeat indication and household-friendly operation.</p>
             <a href="../products/bp-120/">View Product</a>
           </article>
           <article>
-            <div class="model-image"><img src="../assets/products/catalog/bp605-wrist.png" alt="AXD wrist blood pressure monitor" /></div>
+            <div class="model-image"><img loading="lazy" src="../assets/products/catalog/bp605-wrist.png" alt="AXD wrist blood pressure monitor" /></div>
             <h3>Wrist Blood Pressure Monitor</h3>
             <p>Compact design for retail channels, travel use and private label consumer healthcare programs.</p>
             <a href="../products/bp-120/">View Product</a>
           </article>
           <article>
-            <div class="model-image"><img src="../assets/products/catalog/bp826.png" alt="AXD Bluetooth blood pressure monitor" /></div>
+            <div class="model-image"><img loading="lazy" src="../assets/products/catalog/bp826.png" alt="AXD Bluetooth blood pressure monitor" /></div>
             <h3>Bluetooth Blood Pressure Monitor</h3>
             <p>Optional app integration support for brands requiring connected home healthcare device lines.</p>
             <a href="../products/bp-120/">View Product</a>
@@ -154,8 +179,8 @@
 
       <section class="section oem-options-section" id="oem-options">
         <div class="section-heading">
-          <h2>OEM/ODM Blood Pressure Monitor Support</h2>
-          <p>From sample confirmation to mass production, AXDCARE helps overseas buyers prepare branded products.</p>
+          <h2>Key Features / Technologies</h2>
+          <p>From measurement features to packaging and documentation, AXDCARE helps overseas buyers prepare branded products.</p>
         </div>
         <div class="oem-option-grid">
           <article><strong>Logo Printing</strong><span>Brand mark on device body, cuff, manual and package.</span></article>
@@ -164,6 +189,15 @@
           <article><strong>App / Bluetooth</strong><span>Connected product support for selected Bluetooth model projects.</span></article>
           <article><strong>Regulatory Files</strong><span>Document preparation support for importing and registration review.</span></article>
           <article><strong>Mass Production</strong><span>Quality inspection and export-ready production coordination.</span></article>
+        </div>
+      </section>
+
+      <section class="section" id="related-articles">
+        <div class="section-heading"><h2>Related Articles</h2><p>Use these resources to evaluate monitoring products and supplier capability.</p></div>
+        <div class="related-article-grid">
+          <article><h3>Blood Pressure Monitor Supplier Checklist for Distributors</h3><p>Key checks for model options, packaging, documents and long-term cooperation.</p><a href="../blog/">Read More</a></article>
+          <article><h3>Bluetooth Blood Pressure Monitor OEM Considerations</h3><p>What brands should discuss when planning connected monitoring product lines.</p><a href="../blog/">Read More</a></article>
+          <article><h3>What ISO13485 Means for Medical Device OEM Buyers</h3><p>A practical view of quality management expectations for B2B sourcing.</p><a href="../blog/">Read More</a></article>
         </div>
       </section>
 
@@ -193,7 +227,7 @@
           <h2>Start Your Blood Pressure Monitor OEM Project</h2>
           <p>Send your target market, model type, quantity, certification needs and branding requirements.</p>
         </div>
-        <a class="button primary" href="../inquiry.html">Get OEM Quote</a>
+        <a class="button primary" href="../index.html#quote-form">Get OEM Quote</a>
       </section>
     </main>
 
@@ -204,7 +238,7 @@
         <a href="../blood-pressure-monitor/">Blood Pressure Monitor</a>
         <a href="../nebulizer/">Nebulizer</a>
         <a href="../thermometer/">Thermometer</a>
-        <a href="../index.html#oem">OEM/ODM</a>
+        <a href="../oem-odm/">OEM/ODM</a>
       </div>
       <div class="footer-social" data-social-links aria-label="AXDCARE social media links"></div>
     </footer>
@@ -224,6 +258,11 @@
       <span class="whatsapp-float__text">WhatsApp</span>
     </a>
 
-    <script src="../script.js?v=20260614-product"></script>
+    <script src="../script.js?v=20260614-technology2"></script>
   </body>
 </html>
+
+
+
+
+

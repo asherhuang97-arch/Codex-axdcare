@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,30 +10,63 @@
   <body class="product-page">
     <div class="utility-bar" aria-label="Quick links">
       <div class="utility-left"><a href="../index.html#buyers">Partners</a><span></span><a href="../index.html#location">Factory Location</a></div>
-      <div class="utility-right"><a href="../index.html#oem">OEM/ODM Support</a><a href="../index.html#buyers">Global Distribution</a><a href="../assets/downloads/AXDCARE-Catalog-2026.pdf" download>Downloads</a><a href="../inquiry.html">Global - English</a></div>
+      <div class="utility-right"><a href="../oem-odm/">OEM/ODM Support</a><a href="../index.html#buyers">Global Distribution</a><a href="../index.html#quote-form">Request Catalog</a><a href="../index.html#quote-form">Global - English</a></div>
     </div>
     <header class="site-header">
-      <a class="brand" href="../index.html" aria-label="AXDCARE home"><img src="../assets/brand/axdcare-wordmark.png" alt="AXDCARE" /></a>
+      <a class="brand" href="../index.html" aria-label="AXDCARE home">
+        <img src="../assets/brand/axdcare-wordmark.png" alt="AXDCARE" />
+      </a>
       <nav class="main-nav" aria-label="Primary navigation">
-        <a href="../index.html">Home</a><a class="active" href="../index.html#products">Products <span>⌄</span></a><a href="../index.html#oem">OEM/ODM <span>⌄</span></a><a href="../index.html#quality">Quality <span>⌄</span></a><a href="../index.html#about">About AXDCARE</a><a href="../index.html#resources">Resources <span>⌄</span></a><a href="../inquiry.html">Contact</a>
+        <a href="../index.html">Home</a>
+        <div class="nav-dropdown products-dropdown">
+          <a class="active" href="../index.html#products">Products <span aria-hidden="true">⌄</span></a>
+          <div class="mega-menu product-mega" aria-label="Product categories">
+            <a href="../blood-pressure-monitor/">Blood Pressure Monitors</a>
+            <a href="../nebulizer/">Nebulizers</a>
+            <a href="../thermometer/">Digital Thermometers</a>
+            <a href="../index.html#products">Blood Glucose Meters</a>
+            <a href="../index.html#products">Pulse Oximeters</a>
+            <a href="../index.html#products">Pill Box Timers</a>
+            <a href="../index.html#products">TENS / EMS Devices</a>
+            <a href="../index.html#products">Healthcare Accessories</a>
+          </div>
+        </div>
+        <a href="../oem-odm/">OEM/ODM</a>
+        <a href="../index.html#about">Factory</a>
+        <a href="../index.html#quality">Quality</a>
+        <a href="../blog/">Blog</a>
+        <a href="../index.html#quote-form">Contact</a>
       </nav>
-      <label class="language-switcher"><span class="language-icon">◎</span><select class="language-select" aria-label="Select website language"><option value="en">EN</option><option value="ar">AR</option><option value="de">DE</option><option value="fr">FR</option><option value="es">ES</option><option value="pt">PT</option></select></label>
-      <a class="button primary header-button" href="../inquiry.html">Get a Quote</a>
-      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      <label class="language-switcher">
+        <span class="language-icon" aria-hidden="true">◎</span>
+        <select class="language-select" aria-label="Select website language">
+          <option value="en">EN</option>
+          <option value="ar">AR</option>
+          <option value="de">DE</option>
+          <option value="fr">FR</option>
+          <option value="es">ES</option>
+          <option value="pt">PT</option>
+        </select>
+      </label>
+      <a class="button primary header-button" href="../index.html#quote-form">Get a Quote</a>
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
     </header>
     <main>
       <nav class="product-category-nav" aria-label="Product categories">
         <a href="../blood-pressure-monitor/"><span>01</span><strong>Blood Pressure Monitors</strong></a>
         <a class="is-active" href="../nebulizer/"><span>02</span><strong>Nebulizers</strong></a>
         <a href="../thermometer/"><span>03</span><strong>Infrared Thermometers</strong></a>
-        <a href="../index.html#oem"><span>04</span><strong>OEM/ODM Solutions</strong></a>
+        <a href="../oem-odm/"><span>04</span><strong>OEM/ODM Solutions</strong></a>
       </nav>
       <section class="product-showcase">
-        <div class="product-showcase__media"><div class="product-glow"></div><img src="../assets/products/catalog/mesh-nebulizer-group.png" alt="AXDCARE mesh nebulizer OEM product series" /></div>
+        <div class="product-showcase__media"><div class="product-glow"></div><img loading="lazy" src="../assets/products/catalog/mesh-nebulizer-group.png" alt="AXDCARE mesh nebulizer OEM product series" /></div>
         <div class="product-showcase__copy">
-          <p class="product-breadcrumb">Products / Respiratory Care / Nebulizers</p>
-          <h1>Nebulizer Manufacturer</h1>
-          <h2>Mesh, Compressor & Handheld Nebulizer OEM/ODM Programs</h2>
+          <p class="product-breadcrumb">Products / Respiratory Care</p>
+          <h1>Respiratory Care Solutions</h1>
+          <h2>Portable nebulizer solutions designed for home care, pharmacy retail and distribution projects.</h2>
           <ul class="product-feature-list">
             <li>Mesh nebulizer and compressor nebulizer product options</li>
             <li>Private label logo printing and custom packaging</li>
@@ -41,25 +74,32 @@
             <li>Specification support for importers and healthcare brands</li>
             <li>Factory-direct OEM/ODM project coordination</li>
           </ul>
-          <div class="product-actions"><a class="button primary" href="../inquiry.html">Request OEM Quote</a><a class="button outline" href="#models">View Models</a></div>
+          <div class="product-actions"><a class="button primary" href="../index.html#quote-form">Request OEM Quote</a><a class="button outline" href="#models">View Models</a></div>
         </div>
       </section>
-      <section class="product-tabs" aria-label="Nebulizer details"><a href="#models">Product Models</a><a href="#specs">Specifications</a><a href="#oem-options">OEM Options</a><a href="#buyer-faq">Buyer FAQ</a></section>
+      <section class="product-tabs" aria-label="Nebulizer details"><a href="#scenarios">Application Scenarios</a><a href="#models">Product Series</a><a href="#specs">Specifications</a><a href="#oem-options">Technologies</a><a href="#related-articles">Related Articles</a><a href="#buyer-faq">Buyer FAQ</a></section>
+      <section class="section" id="scenarios"><div class="section-heading"><h2>Application Scenarios</h2><p>Respiratory care products can be planned for home use, pharmacy channels and distributor programs.</p></div><div class="scenario-grid"><article class="scenario-card"><div class="scenario-image"><img src="../assets/products/catalog/mesh-nebulizer-group.png" alt="Home care nebulizer solution" loading="lazy" /></div><h3>Home Care</h3><p>Portable mesh nebulizers for household respiratory care programs.</p></article><article class="scenario-card"><div class="scenario-image"><img src="../assets/products/catalog/compressor-nebulizer.png" alt="Pharmacy retail nebulizer product" loading="lazy" /></div><h3>Pharmacy Retail</h3><p>Packaging-ready nebulizer products for retail and healthcare channels.</p></article><article class="scenario-card"><div class="scenario-image"><img src="../assets/technology/nebulizer-technology.svg" alt="Nebulizer distributor sourcing solution" loading="lazy" /></div><h3>Distribution Projects</h3><p>Model selection and documentation support for importers and distributors.</p></article></div></section>
       <section class="section product-model-section" id="models">
-        <div class="section-heading"><h2>Nebulizer Product Range</h2><p>Built for distributors, pharmacy chains, healthcare brands and private label respiratory care projects.</p></div>
+        <div class="section-heading"><h2>Product Series</h2><p>Built for distributors, pharmacy chains, healthcare brands and private label respiratory care projects.</p></div>
         <div class="product-range-grid">
-          <article><div class="model-image"><img src="../assets/products/catalog/mesh-nebulizer-group.png" alt="MN-01 mesh nebulizer" /></div><h3>MN-01 Mesh Nebulizer</h3><p>Portable handheld nebulizer for pharmacy retail and home healthcare brand channels.</p><a href="../products/mn-01/">View Product</a></article>
-          <article><div class="model-image"><img src="../assets/products/catalog/compressor-nebulizer.png" alt="Compressor nebulizer" /></div><h3>Compressor Nebulizer</h3><p>Stable compressor nebulizer options for broader procurement and distributor programs.</p><a href="../products/mn-01/">View Product</a></article>
-          <article><div class="model-image"><img src="../assets/products/catalog/mesh-nebulizer.png" alt="Private label mesh nebulizer packaging" /></div><h3>Rechargeable Nebulizer</h3><p>Compact respiratory care product line with charging and packaging customization options.</p><a href="../products/mn-01/">View Product</a></article>
+          <article><div class="model-image"><img loading="lazy" src="../assets/products/catalog/mesh-nebulizer-group.png" alt="MN-01 mesh nebulizer" /></div><h3>MN-01 Mesh Nebulizer</h3><p>Portable handheld nebulizer for pharmacy retail and home healthcare brand channels.</p><a href="../products/mn-01/">View Product</a></article>
+          <article><div class="model-image"><img loading="lazy" src="../assets/products/catalog/compressor-nebulizer.png" alt="Compressor nebulizer" /></div><h3>Compressor Nebulizer</h3><p>Stable compressor nebulizer options for broader procurement and distributor programs.</p><a href="../products/mn-01/">View Product</a></article>
+          <article><div class="model-image"><img loading="lazy" src="../assets/products/catalog/mesh-nebulizer.png" alt="Private label mesh nebulizer packaging" /></div><h3>Rechargeable Nebulizer</h3><p>Compact respiratory care product line with charging and packaging customization options.</p><a href="../products/mn-01/">View Product</a></article>
         </div>
       </section>
       <section class="product-detail-band" id="specs"><div><h2>Procurement Details</h2><p>AXDCARE helps buyers compare model type, particle performance requirements, package plan, target market and order schedule.</p></div><dl class="spec-grid"><div><dt>Product Type</dt><dd>Mesh, compressor, handheld</dd></div><div><dt>Customization</dt><dd>Logo, color, packaging, manual</dd></div><div><dt>Buyer Type</dt><dd>Distributor, importer, brand owner</dd></div><div><dt>Support</dt><dd>OEM/ODM, documentation and production planning</dd></div></dl></section>
-      <section class="section oem-options-section" id="oem-options"><div class="section-heading"><h2>OEM/ODM Nebulizer Support</h2><p>Prepare market-ready nebulizer programs with clear specifications and brand customization.</p></div><div class="oem-option-grid"><article><strong>Private Label</strong><span>Device logo, package and manual branding.</span></article><article><strong>Packaging</strong><span>Retail box, carton label and distributor-ready materials.</span></article><article><strong>Model Selection</strong><span>Mesh, compressor and handheld product matching.</span></article><article><strong>Market Support</strong><span>Documentation support based on target country needs.</span></article><article><strong>Sample Review</strong><span>Sample confirmation before mass production.</span></article><article><strong>Export Delivery</strong><span>Coordinated production and shipping preparation.</span></article></div></section>
+      <section class="section oem-options-section" id="oem-options"><div class="section-heading"><h2>Key Features / Technologies</h2><p>Prepare market-ready nebulizer programs with clear specifications and brand customization.</p></div><div class="oem-option-grid"><article><strong>Mesh Technology</strong><span>Portable nebulizer product direction for home respiratory care.</span></article><article><strong>Compressor Options</strong><span>Stable compressor nebulizer choices for distributor programs.</span></article><article><strong>Private Label</strong><span>Device logo, package and manual branding.</span></article><article><strong>Packaging</strong><span>Retail box, carton label and distributor-ready materials.</span></article><article><strong>Market Support</strong><span>Documentation support based on target country needs.</span></article><article><strong>Export Delivery</strong><span>Coordinated production and shipping preparation.</span></article></div></section>
+      <section class="section" id="related-articles"><div class="section-heading"><h2>Related Articles</h2></div><div class="related-article-grid"><article><h3>Nebulizer OEM Projects: Mesh vs Compressor Models</h3><p>A sourcing-focused comparison for pharmacy and distributor channels.</p><a href="../blog/">Read More</a></article><article><h3>Respiratory Care Product Sourcing for Distributors</h3><p>How buyers can match model, packaging and documents to local needs.</p><a href="../blog/">Read More</a></article><article><h3>OEM Packaging Guide for Home Healthcare Devices</h3><p>Plan retail box, manual, barcode and shipping carton details.</p><a href="../download-center/">Read More</a></article></div></section>
       <section class="section product-faq" id="buyer-faq"><div class="section-heading"><h2>Nebulizer Manufacturer FAQ</h2><p>Common questions from overseas B2B buyers.</p></div><div class="faq-grid"><article><h3>Do you make mesh and compressor nebulizers?</h3><p>Yes. AXDCARE supports multiple nebulizer product lines for OEM/ODM buyers.</p></article><article><h3>Can I customize packaging?</h3><p>Yes. Retail box, manual and carton label customization can be discussed for your project.</p></article><article><h3>Who should inquire?</h3><p>Distributors, importers, medical wholesalers, pharmacy chains and private label brands.</p></article></div></section>
-      <section class="section final-inquiry product-final-cta"><div><h2>Start Your Nebulizer OEM Project</h2><p>Send your model type, target market, quantity and branding requirements.</p></div><a class="button primary" href="../inquiry.html">Get OEM Quote</a></section>
+      <section class="section final-inquiry product-final-cta"><div><h2>Start Your Nebulizer OEM Project</h2><p>Send your model type, target market, quantity and branding requirements.</p></div><a class="button primary" href="../index.html#quote-form">Get OEM Quote</a></section>
     </main>
-    <footer class="site-footer"><strong class="footer-logo">AXDCARE</strong><p>Shenzhen AXD Electronic Co., Ltd. | Nebulizer OEM/ODM manufacturer.</p><div class="footer-nav"><a href="../blood-pressure-monitor/">Blood Pressure Monitor</a><a href="../nebulizer/">Nebulizer</a><a href="../thermometer/">Thermometer</a><a href="../index.html#oem">OEM/ODM</a></div><div class="footer-social" data-social-links aria-label="AXDCARE social media links"></div></footer>
+    <footer class="site-footer"><strong class="footer-logo">AXDCARE</strong><p>Shenzhen AXD Electronic Co., Ltd. | Nebulizer OEM/ODM manufacturer.</p><div class="footer-nav"><a href="../blood-pressure-monitor/">Blood Pressure Monitor</a><a href="../nebulizer/">Nebulizer</a><a href="../thermometer/">Thermometer</a><a href="../oem-odm/">OEM/ODM</a></div><div class="footer-social" data-social-links aria-label="AXDCARE social media links"></div></footer>
     <a class="whatsapp-float" href="https://wa.me/8618583246000?text=Hello%2C%20I%20am%20interested%20in%20your%20products.%20Please%20send%20me%20more%20details." target="_blank" rel="noopener" aria-label="Chat with AXDCARE on WhatsApp"><span class="whatsapp-float__icon" aria-hidden="true"><svg viewBox="0 0 32 32" role="img"><path d="M16 3.5A12.4 12.4 0 0 0 5.6 22.7L4 28.5l6-1.5A12.4 12.4 0 1 0 16 3.5Zm0 22.8c-2 0-3.9-.6-5.6-1.7l-.4-.2-3.5.9.9-3.4-.2-.4A10.2 10.2 0 1 1 16 26.3Zm5.8-7.6c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.4 8.4 0 0 1-4.2-3.7c-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-.9-2c-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 3 0 1.7 1.3 3.4 1.5 3.7.2.2 2.5 3.9 6.2 5.3 2.3.9 3.2 1 4.4.8 1-.2 1.8-1.1 2-1.6.2-.5.2-1 .2-1.2-.1-.1-.3-.2-.6-.4Z" /></svg></span><span class="whatsapp-float__text">WhatsApp</span></a>
-    <script src="../script.js?v=20260614-product"></script>
+    <script src="../script.js?v=20260614-technology2"></script>
   </body>
 </html>
+
+
+
+
+

@@ -55,12 +55,13 @@ const translations = {
     "nav.oem": "OEM/ODM",
     "nav.quality": "Quality",
     "nav.about": "About AXDCARE",
+    "nav.technology": "Technology",
     "nav.resources": "Resources",
     "nav.support": "Support",
     "nav.contact": "Contact",
     "nav.inquiry": "Inquiry",
     "cta.quote": "Get a Quote",
-    "cta.catalog": "Download Catalog",
+    "cta.catalog": "Request Catalog",
     "cta.sales": "Talk to Sales",
     "home.hero.title": "OEM/ODM Home Medical Device Manufacturer",
     "home.hero.subtitle": "Blood Pressure Monitors, Nebulizers & Thermometers",
@@ -71,7 +72,7 @@ const translations = {
     "home.about.title": "Trusted Manufacturing Partner Since 2006",
     "home.about.text": "Shenzhen AXD Electronic Co., Ltd. supports pharmacy chains, distributors, healthcare brands and e-commerce buyers with OEM/ODM product development, quality control and export-ready manufacturing.",
     "home.featured.title": "Featured Products",
-    "home.featured.subtitle": "Procurement-friendly product blocks for RFQ, specification review and catalog download.",
+    "home.featured.subtitle": "Procurement-friendly product blocks for RFQ, specification review and catalog request.",
     "home.process.title": "OEM/ODM Process",
     "home.process.subtitle": "Clear collaboration from initial requirements to brand-ready mass production.",
     "home.buyers.title": "Built For Professional Buyers",
@@ -134,6 +135,7 @@ const translations = {
     "nav.oem": "OEM/ODM",
     "nav.quality": "الجودة",
     "nav.about": "عن AXDCARE",
+    "nav.technology": "التقنية",
     "nav.resources": "الموارد",
     "nav.support": "الدعم",
     "nav.contact": "تواصل معنا",
@@ -213,6 +215,7 @@ const translations = {
     "nav.oem": "OEM/ODM",
     "nav.quality": "Qualität",
     "nav.about": "Über AXDCARE",
+    "nav.technology": "Technologie",
     "nav.resources": "Ressourcen",
     "nav.support": "Support",
     "nav.contact": "Kontakt",
@@ -229,7 +232,7 @@ const translations = {
     "home.about.title": "Verlässlicher Fertigungspartner seit 2006",
     "home.about.text": "Shenzhen AXD Electronic Co., Ltd. unterstützt Apothekenketten, Distributoren, Healthcare-Marken und E-Commerce-Käufer mit OEM/ODM-Entwicklung, Qualitätskontrolle und exportbereiter Fertigung.",
     "home.featured.title": "Ausgewählte Produkte",
-    "home.featured.subtitle": "Beschaffungsfreundliche Produktblöcke für RFQ, Spezifikationsprüfung und Katalogdownload.",
+    "home.featured.subtitle": "Beschaffungsfreundliche Produktblöcke für RFQ, Spezifikationsprüfung und Kataloganfrage.",
     "home.process.title": "OEM/ODM Prozess",
     "home.process.subtitle": "Klare Zusammenarbeit von den ersten Anforderungen bis zur markenfertigen Serienproduktion.",
     "home.buyers.title": "Für professionelle Käufer entwickelt",
@@ -292,6 +295,7 @@ const translations = {
     "nav.oem": "OEM/ODM",
     "nav.quality": "Qualité",
     "nav.about": "À propos d'AXDCARE",
+    "nav.technology": "Technologie",
     "nav.resources": "Ressources",
     "nav.support": "Support",
     "nav.contact": "Contact",
@@ -371,6 +375,7 @@ const translations = {
     "nav.oem": "OEM/ODM",
     "nav.quality": "Calidad",
     "nav.about": "Sobre AXDCARE",
+    "nav.technology": "Tecnología",
     "nav.resources": "Recursos",
     "nav.support": "Soporte",
     "nav.contact": "Contacto",
@@ -450,6 +455,7 @@ const translations = {
     "nav.oem": "OEM/ODM",
     "nav.quality": "Qualidade",
     "nav.about": "Sobre a AXDCARE",
+    "nav.technology": "Tecnologia",
     "nav.resources": "Recursos",
     "nav.support": "Suporte",
     "nav.contact": "Contato",
@@ -466,7 +472,7 @@ const translations = {
     "home.about.title": "Parceiro de fabricação confiável desde 2006",
     "home.about.text": "A Shenzhen AXD Electronic Co., Ltd. apoia redes de farmácias, distribuidores, marcas de saúde e compradores e-commerce com desenvolvimento OEM/ODM, controle de qualidade e fabricação pronta para exportação.",
     "home.featured.title": "Produtos em destaque",
-    "home.featured.subtitle": "Blocos de produto para RFQ, revisão de especificações e download de catálogo.",
+    "home.featured.subtitle": "Blocos de produto para RFQ, revisão de especificações e solicitação de catálogo.",
     "home.process.title": "Processo OEM/ODM",
     "home.process.subtitle": "Colaboração clara dos requisitos iniciais à produção em massa pronta para a marca.",
     "home.buyers.title": "Criado para compradores profissionais",
@@ -587,10 +593,12 @@ function applyLanguage(language) {
 
 function applyMixedNavTranslations() {
   [
-    ['a[href="#products"], a[href="index.html#products"]', "nav.products"],
-    ['a[href="#oem"], a[href="index.html#oem"]', "nav.oem"],
-    ['a[href="#quality"], a[href="index.html#quality"]', "nav.quality"],
-    ['a[href="#resources"], a[href="index.html#resources"]', "nav.resources"]
+    [
+      '.main-nav > .products-dropdown > a[href="#products"], .main-nav > .products-dropdown > a[href="index.html#products"], .main-nav > .products-dropdown > a[href="../index.html#products"], .main-nav > .products-dropdown > a[href="../../index.html#products"]',
+      "nav.products"
+    ],
+    ['.main-nav > a[href="#oem"], .main-nav > a[href="index.html#oem"], .main-nav > a[href="../index.html#oem"], .main-nav > a[href="../../index.html#oem"]', "nav.oem"],
+    ['.main-nav > a[href="#quality"], .main-nav > a[href="index.html#quality"], .main-nav > a[href="../index.html#quality"], .main-nav > a[href="../../index.html#quality"]', "nav.quality"]
   ].forEach(([selector, key]) => {
     document.querySelectorAll(selector).forEach((link) => {
       const textNode = Array.from(link.childNodes).find(

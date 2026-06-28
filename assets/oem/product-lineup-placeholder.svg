@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title desc">
+  <title id="title">Product Lineup</title>
+  <desc id="desc">Home medical device product lineup placeholder.</desc>
+  <rect width="320" height="220" rx="22" fill="#f7fbff"/>
+  <rect x="52" y="76" width="72" height="70" rx="14" fill="#fff" stroke="#d5e1f0" stroke-width="3"/>
+  <rect x="142" y="52" width="54" height="94" rx="24" fill="#fff" stroke="#d5e1f0" stroke-width="3"/>
+  <rect x="214" y="64" width="54" height="82" rx="16" fill="#fff" stroke="#d5e1f0" stroke-width="3"/>
+  <path d="M70 102h36M70 122h26" stroke="#5b63a7" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="169" cy="118" r="12" fill="#00b8a9" opacity=".75"/>
+  <rect x="228" y="86" width="26" height="24" rx="5" fill="#e6f0ff" stroke="#5b63a7"/>
+  <text x="160" y="194" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#263a63">Product Lineup</text>
+</svg>
